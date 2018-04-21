@@ -1,0 +1,290 @@
+.home .bottomBar {
+	background-color: #ffbf00;
+	text-align: center;
+}
+
+.home .bottomBar div {
+	padding: 0px 10px;
+	margin: 10px;
+}
+
+.home .bottomBar h3 {
+	margin: 0px;
+}
+
+.home .cell0 .hovering {
+	text-align: center;
+	padding: 0px 15px;
+}
+
+.home .cell0 .button {
+	margin: 20px;
+}
+
+.home .cell0 .whiteButton {
+	margin: 20px;
+}
+
+.home .cell0 h6 {
+	margin: 10px 20px;
+}
+
+.home .cell0 h1 {
+	margin: 10px 20px;
+}
+
+.home .cell1 {
+	grid-gap: 2px;
+	margin: 2px;
+}
+
+.home .cell1 .textBlock {
+	padding: 30px 0px 50px 0px;
+}
+
+.home .cell1 p {
+	margin-bottom: 30px;
+}
+
+.home .cell2 {
+	background-color: #262626;
+}
+
+.home .cell2 p {
+	margin-bottom: 20px;
+}
+
+.home .cell2 .textBlock {
+	background-color: #262626;
+	position: relative;
+	z-index: 1;
+	height: 350px;
+}
+
+.home .cell3 {
+	overflow: hidden;
+	min-height: 550px;
+}
+
+.home .cell3 p {
+	margin-bottom: 40px;
+}
+
+.home .cell4 {
+	padding-bottom: 80px;
+}
+
+.home .cell4 .title {
+	text-align: center;
+}
+
+.home .cell4 .title h3 {
+	border-bottom-style: solid;
+	border-bottom-color: #ffbf00;
+	width: 250px;
+}
+
+.home .cell4 .outer {
+	position: relative;
+	padding: 40px 40px 60px 40px;
+}
+
+.home .cell4 .inner {
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgrey;
+	position: relative;
+	height: 200px;
+	padding: 30px;
+	color: grey;
+	font-style: italic;
+}
+
+.home .cell4 img {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 80px;
+	border-radius: 40px;
+	margin: 0px 70px;
+}
+
+.home .cell4 h6 {
+	width: 200px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin: 20px 170px;
+}
+
+.home .cell5 {
+	padding: 0px 0px 60px 0px;
+}
+
+.home .cell5 .outer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 50px 0px;
+}
+
+.home .cell5 .inner {
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgrey;
+	margin: 10px;
+}
+
+.home .cell5 .inner img {
+	height: 100px;
+	padding: 0px 20px;
+}
+
+.home .cell5 .title {
+	text-align: center;
+}
+
+.home .cell5 .title h3 {
+	border-bottom-style: solid;
+	border-bottom-color: #ffbf00;
+	width: 170px;
+}
+
+.about .cell0 {
+	background-color: #f2f2f2;
+	border-style: solid;
+	border-color: lightgrey;
+	border-width: 1px;
+	color: #262626;
+	text-align: center;
+	padding: 30px 10px;
+}
+
+.about .cell0 h2 {
+	margin: 10px;
+}
+
+.about .cell0 .whiteButtonReverse {
+	margin: 10px;
+}
+
+.about .cell1 .outer {
+	padding: 40px 0px 0px 0px;
+	margin: 40px;
+}
+
+.services .first {
+	padding-top: 60px;
+}
+
+.services .last {
+	margin-bottom: 80px;
+}
+
+.services .collapseNav {
+	position: fixed;
+	right: 0;
+	left: 0;
+}
+
+.services .service .grid {
+	text-align: center;
+}
+
+.services .service .banner {
+	padding-left: 40px;
+}
+
+.services .service .banner h3 {
+	border-bottom-style: solid;
+	border-bottom-color: #ffbf00;
+	width: 250px;
+}
+
+.services .service img {
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.services .service {
+	padding-bottom: 0px;
+}
+
+@media only screen and (min-width: 500px) {
+	.services .service img {
+		width: 450px;
+	}
+
+	.home .cell0 h6 {
+		width: 450px;
+	}
+
+	.home .cell0 .hovering {
+		padding-left: 50px;
+		text-align: left;
+	}
+
+	.home .bottomBar {
+		text-align: left;
+	}
+
+	.home .cell3 p {
+		width: 450px;
+		margin: 0 auto;
+		margin-bottom: 40px;
+	}
+
+	.home .cell4 .title {
+		text-align: left;
+		padding-left: 40px;
+	}
+
+	.home .cell5 .title {
+		text-align: left;
+		padding-left: 40px;
+	}
+
+	.about .cell0 {
+		padding-left: 30px;
+		padding-right: 30px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.home .cell2 img {
+		width: auto;
+		position: absolute;
+		top: 0px;
+		left: -9999px;
+		right: -9999px;
+		margin: auto;
+		height: 350px;
+	}
+
+	.home .bottomBar {
+		display: flex;
+		flex-direction: row;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.home .cell3 img {
+		width: auto;
+		position: absolute;
+		top: 0px;
+		left: -9999px;
+		right: -9999px;
+		margin: auto;
+		height: 550px;
+	}
+}
+
+@media only screen (min-width: 768px) {
+	.home .cell2 {
+		height: 300px;
+	}
+}

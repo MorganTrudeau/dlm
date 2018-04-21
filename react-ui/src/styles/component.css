@@ -1,0 +1,97 @@
+.navigation img {
+	margin-top: -12px;
+}
+
+/* bannerCarousel */
+
+.carousel .item {
+	min-height: 500px;
+}
+
+.carousel img {
+	z-index: 1;
+	position: absolute;
+	top: 0px;
+	left: -9999px;
+	right: -9999px;
+	margin: auto;
+	min-width: 1098px;
+}
+
+.carousel .hovering {
+	z-index: 2;
+}
+
+/* footer */
+
+.footer {
+	color: white;
+	background-color: black;
+	padding: 10px 0px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+.footer img {
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.footer a {
+	color: white;
+	margin-bottom: 10px;
+}
+
+.footer a:hover {
+	color: white;
+}
+
+.footer .mediaIcons {
+	display: flex;
+	justify-content: center;
+}
+
+.footer .mediaIcon {
+	margin: 0px 20px 20px 20px;
+}
+
+.footer .gridRow {
+	text-align: center;
+}
+
+.footer .cell0 {
+	padding: 40px 10px 20px 10px;
+}
+
+.footer .cell1 {
+	padding: 20px 10px;
+}
+
+.footer .cell1 .button {
+	background-color: #ffd602;
+	border-color: black;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.footer .cell1 .button:hover {
+	background-color: black;
+	border-color: #ffd602;
+	color: #ffd602;
+}
+
+.footer .cell2 {
+	padding: 20px;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+	.carousel .item {
+		height: 45vw;
+	}
+}
